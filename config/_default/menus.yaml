@@ -2,22 +2,23 @@
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
+# KU: doesn't work for me. I had to specify url:'home/file-name/' 8 Dec 2021
 
 main:
   - name: Home
-    url: '#about'
+    url: 'home/about'
     weight: 10
-  - name: Bio
-    url: '#bio'
+  - name: Bio/CV
+    url: 'home/bio'
     weight: 20
   - name: Podcasts
-    url: '#podcasts'
+    url: 'home/podcast'
     weight: 30
   - name: Publications
-    url: '#Publications'
+    url: 'home/publications'
     weight: 40
   - name: Portfolio
-    url: '#portfolio'
+    url: 'home/portfolio'
     weight: 50
   - name: Contact
     url: 'home/contact/'
